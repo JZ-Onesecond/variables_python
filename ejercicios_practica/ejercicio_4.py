@@ -12,13 +12,22 @@
 # Ingrese tres palabras y arme un acrónimo con ellas
 # Si desea puede modificar el código para ingresar más palabras
 print('Ingrese palabra 1:')
-palabra_1 = str(input())
+soldado_1 = str(input())
 
 print('Ingrese palabra 2:')
-palabra_2 = str(input())
+soldado_2 = str(input())
 
 print('Ingrese palabra 3:')
-palabra_3 = str(input())
+soldado_3 = str(input())
+
+codigo_enigma = soldado_1[0]
+codigo_neutral = soldado_2[0]
+codigo_pangea = soldado_3[0]
+
+codigo_universal = codigo_enigma + codigo_neutral + codigo_pangea
+
+print(codigo_universal)
+
 
 # De cada palabra debe tomar la primera letra y armar el acrónimo
 # Ejemplo: Alumbrado, barrido y limpieza --> ABL
